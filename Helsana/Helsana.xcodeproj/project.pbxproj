@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E509F283233F3DE7004A0736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509F282233F3DE7004A0736 /* AppDelegate.swift */; };
+		E509F285233F3DE7004A0736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509F284233F3DE7004A0736 /* ViewController.swift */; };
+		E509F288233F3DE7004A0736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E509F286233F3DE7004A0736 /* Main.storyboard */; };
+		E509F28A233F3DE8004A0736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E509F289233F3DE8004A0736 /* Assets.xcassets */; };
+		E509F28D233F3DE8004A0736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E509F28B233F3DE8004A0736 /* LaunchScreen.storyboard */; };
+		E509F298233F3DE8004A0736 /* HelsanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509F297233F3DE8004A0736 /* HelsanaTests.swift */; };
+		E509F2A3233F3DE8004A0736 /* HelsanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509F2A2233F3DE8004A0736 /* HelsanaUITests.swift */; };
+		E509F2B1233F4524004A0736 /* RisksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E509F2B0233F4524004A0736 /* RisksController.swift */; };
+		E531AE50233F4A610093A45A /* ParamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531AE4F233F4A610093A45A /* ParamController.swift */; };
+		E531AE54233FB1DC0093A45A /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531AE53233FB1DC0093A45A /* ProfileController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E509F294233F3DE8004A0736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E509F277233F3DE7004A0736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E509F27E233F3DE7004A0736;
+			remoteInfo = Helsana;
+		};
+		E509F29F233F3DE8004A0736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E509F277233F3DE7004A0736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E509F27E233F3DE7004A0736;
+			remoteInfo = Helsana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E509F27F233F3DE7004A0736 /* Helsana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helsana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E509F282233F3DE7004A0736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E509F284233F3DE7004A0736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E509F287233F3DE7004A0736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E509F289233F3DE8004A0736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E509F28C233F3DE8004A0736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E509F28E233F3DE8004A0736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E509F293233F3DE8004A0736 /* HelsanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelsanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E509F297233F3DE8004A0736 /* HelsanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelsanaTests.swift; sourceTree = "<group>"; };
+		E509F299233F3DE8004A0736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E509F29E233F3DE8004A0736 /* HelsanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelsanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E509F2A2233F3DE8004A0736 /* HelsanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelsanaUITests.swift; sourceTree = "<group>"; };
+		E509F2A4233F3DE8004A0736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E509F2B0233F4524004A0736 /* RisksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisksController.swift; sourceTree = "<group>"; };
+		E531AE4F233F4A610093A45A /* ParamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamController.swift; sourceTree = "<group>"; };
+		E531AE53233FB1DC0093A45A /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E509F27C233F3DE7004A0736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E509F290233F3DE8004A0736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E509F29B233F3DE8004A0736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E509F276233F3DE7004A0736 = {
+			isa = PBXGroup;
+			children = (
+				E509F281233F3DE7004A0736 /* Helsana */,
+				E509F296233F3DE8004A0736 /* HelsanaTests */,
+				E509F2A1233F3DE8004A0736 /* HelsanaUITests */,
+				E509F280233F3DE7004A0736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E509F280233F3DE7004A0736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E509F27F233F3DE7004A0736 /* Helsana.app */,
+				E509F293233F3DE8004A0736 /* HelsanaTests.xctest */,
+				E509F29E233F3DE8004A0736 /* HelsanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E509F281233F3DE7004A0736 /* Helsana */ = {
+			isa = PBXGroup;
+			children = (
+				E509F282233F3DE7004A0736 /* AppDelegate.swift */,
+				E509F284233F3DE7004A0736 /* ViewController.swift */,
+				E509F286233F3DE7004A0736 /* Main.storyboard */,
+				E509F289233F3DE8004A0736 /* Assets.xcassets */,
+				E509F28B233F3DE8004A0736 /* LaunchScreen.storyboard */,
+				E509F28E233F3DE8004A0736 /* Info.plist */,
+				E509F2B0233F4524004A0736 /* RisksController.swift */,
+				E531AE4F233F4A610093A45A /* ParamController.swift */,
+				E531AE53233FB1DC0093A45A /* ProfileController.swift */,
+			);
+			path = Helsana;
+			sourceTree = "<group>";
+		};
+		E509F296233F3DE8004A0736 /* HelsanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E509F297233F3DE8004A0736 /* HelsanaTests.swift */,
+				E509F299233F3DE8004A0736 /* Info.plist */,
+			);
+			path = HelsanaTests;
+			sourceTree = "<group>";
+		};
+		E509F2A1233F3DE8004A0736 /* HelsanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E509F2A2233F3DE8004A0736 /* HelsanaUITests.swift */,
+				E509F2A4233F3DE8004A0736 /* Info.plist */,
+			);
+			path = HelsanaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E509F27E233F3DE7004A0736 /* Helsana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E509F2A7233F3DE9004A0736 /* Build configuration list for PBXNativeTarget "Helsana" */;
+			buildPhases = (
+				E509F27B233F3DE7004A0736 /* Sources */,
+				E509F27C233F3DE7004A0736 /* Frameworks */,
+				E509F27D233F3DE7004A0736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Helsana;
+			productName = Helsana;
+			productReference = E509F27F233F3DE7004A0736 /* Helsana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E509F292233F3DE8004A0736 /* HelsanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E509F2AA233F3DE9004A0736 /* Build configuration list for PBXNativeTarget "HelsanaTests" */;
+			buildPhases = (
+				E509F28F233F3DE8004A0736 /* Sources */,
+				E509F290233F3DE8004A0736 /* Frameworks */,
+				E509F291233F3DE8004A0736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E509F295233F3DE8004A0736 /* PBXTargetDependency */,
+			);
+			name = HelsanaTests;
+			productName = HelsanaTests;
+			productReference = E509F293233F3DE8004A0736 /* HelsanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E509F29D233F3DE8004A0736 /* HelsanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E509F2AD233F3DE9004A0736 /* Build configuration list for PBXNativeTarget "HelsanaUITests" */;
+			buildPhases = (
+				E509F29A233F3DE8004A0736 /* Sources */,
+				E509F29B233F3DE8004A0736 /* Frameworks */,
+				E509F29C233F3DE8004A0736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E509F2A0233F3DE8004A0736 /* PBXTargetDependency */,
+			);
+			name = HelsanaUITests;
+			productName = HelsanaUITests;
+			productReference = E509F29E233F3DE8004A0736 /* HelsanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E509F277233F3DE7004A0736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jaafar Rammal";
+				TargetAttributes = {
+					E509F27E233F3DE7004A0736 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					E509F292233F3DE8004A0736 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = E509F27E233F3DE7004A0736;
+					};
+					E509F29D233F3DE8004A0736 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = E509F27E233F3DE7004A0736;
+					};
+				};
+			};
+			buildConfigurationList = E509F27A233F3DE7004A0736 /* Build configuration list for PBXProject "Helsana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E509F276233F3DE7004A0736;
+			productRefGroup = E509F280233F3DE7004A0736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E509F27E233F3DE7004A0736 /* Helsana */,
+				E509F292233F3DE8004A0736 /* HelsanaTests */,
+				E509F29D233F3DE8004A0736 /* HelsanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E509F27D233F3DE7004A0736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E509F28D233F3DE8004A0736 /* LaunchScreen.storyboard in Resources */,
+				E509F28A233F3DE8004A0736 /* Assets.xcassets in Resources */,
+				E509F288233F3DE7004A0736 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E509F291233F3DE8004A0736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E509F29C233F3DE8004A0736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E509F27B233F3DE7004A0736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E509F2B1233F4524004A0736 /* RisksController.swift in Sources */,
+				E531AE50233F4A610093A45A /* ParamController.swift in Sources */,
+				E509F285233F3DE7004A0736 /* ViewController.swift in Sources */,
+				E509F283233F3DE7004A0736 /* AppDelegate.swift in Sources */,
+				E531AE54233FB1DC0093A45A /* ProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E509F28F233F3DE8004A0736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E509F298233F3DE8004A0736 /* HelsanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E509F29A233F3DE8004A0736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E509F2A3233F3DE8004A0736 /* HelsanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E509F295233F3DE8004A0736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E509F27E233F3DE7004A0736 /* Helsana */;
+			targetProxy = E509F294233F3DE8004A0736 /* PBXContainerItemProxy */;
+		};
+		E509F2A0233F3DE8004A0736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E509F27E233F3DE7004A0736 /* Helsana */;
+			targetProxy = E509F29F233F3DE8004A0736 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E509F286233F3DE7004A0736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E509F287233F3DE7004A0736 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E509F28B233F3DE8004A0736 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E509F28C233F3DE8004A0736 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E509F2A5233F3DE8004A0736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E509F2A6233F3DE9004A0736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E509F2A8233F3DE9004A0736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				INFOPLIST_FILE = Helsana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaafarrammal.Helsana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E509F2A9233F3DE9004A0736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				INFOPLIST_FILE = Helsana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaafarrammal.Helsana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E509F2AB233F3DE9004A0736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				INFOPLIST_FILE = HelsanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaafarrammal.HelsanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helsana.app/Helsana";
+			};
+			name = Debug;
+		};
+		E509F2AC233F3DE9004A0736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				INFOPLIST_FILE = HelsanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaafarrammal.HelsanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helsana.app/Helsana";
+			};
+			name = Release;
+		};
+		E509F2AE233F3DE9004A0736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				INFOPLIST_FILE = HelsanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaafarrammal.HelsanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Helsana;
+			};
+			name = Debug;
+		};
+		E509F2AF233F3DE9004A0736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				INFOPLIST_FILE = HelsanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaafarrammal.HelsanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Helsana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E509F27A233F3DE7004A0736 /* Build configuration list for PBXProject "Helsana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E509F2A5233F3DE8004A0736 /* Debug */,
+				E509F2A6233F3DE9004A0736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E509F2A7233F3DE9004A0736 /* Build configuration list for PBXNativeTarget "Helsana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E509F2A8233F3DE9004A0736 /* Debug */,
+				E509F2A9233F3DE9004A0736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E509F2AA233F3DE9004A0736 /* Build configuration list for PBXNativeTarget "HelsanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E509F2AB233F3DE9004A0736 /* Debug */,
+				E509F2AC233F3DE9004A0736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E509F2AD233F3DE9004A0736 /* Build configuration list for PBXNativeTarget "HelsanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E509F2AE233F3DE9004A0736 /* Debug */,
+				E509F2AF233F3DE9004A0736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E509F277233F3DE7004A0736 /* Project object */;
+}
