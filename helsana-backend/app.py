@@ -271,7 +271,8 @@ def fusion(lat, lon, zip, resting_heartrate_in, steps_in, cigarettes_in, sleep_i
               }
     final_score = 0.0
     for key, value in scores.items():
-        final_score = final_score + value
+        if key != 'age':
+            final_score = final_score + value
     final_score = int(final_score / 1.775)
     return json.dumps({'score': final_score, 'diagnostic': diagnostic})
 
