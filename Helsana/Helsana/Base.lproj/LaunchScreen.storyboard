@@ -19,7 +19,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helsana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Dv-RI-1vc">
-                                <rect key="frame" x="20" y="290" width="374" height="84"/>
+                                <rect key="frame" x="20" y="239" width="374" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="UgL-sl-Pm9"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="70"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -37,7 +40,7 @@
                             <constraint firstItem="7Af-P6-OOk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UHf-H9-Ptp"/>
                             <constraint firstItem="0Dv-RI-1vc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="abs-b9-qSq"/>
                             <constraint firstItem="7Af-P6-OOk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="338" id="cde-Kf-mgq"/>
-                            <constraint firstItem="0Dv-RI-1vc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="246" id="hUY-4y-b77"/>
+                            <constraint firstItem="0Dv-RI-1vc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="195" id="hUY-4y-b77"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Af-P6-OOk" secondAttribute="trailing" constant="20" id="oym-jK-H4g"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
